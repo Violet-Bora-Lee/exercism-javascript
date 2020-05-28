@@ -1,0 +1,12 @@
+.gitignore
+.idea/.gitignore
+.idea/codeStyles/
+.idea/encodings.xml
+.idea/inspectionProfiles/
+.idea/javascript.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+
+.exercism/
+node_modules/
