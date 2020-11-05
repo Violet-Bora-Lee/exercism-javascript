@@ -3,9 +3,9 @@
 // convenience to get you started writing code faster.
 //
 
-const gigasecondIntoMillisecond = Math.pow(10, 9) * 1000;
+const GIGA_SECOND_INTO_MILLISECONDS = Math.pow(10, 9) * 1000;
 
 export const gigasecond = (inputDate) => {
-	const returnDate = inputDate.getTime() + gigasecondIntoMillisecond;
+	const returnDate = inputDate.getTime() + GIGA_SECOND_INTO_MILLISECONDS;
 	return new Date(returnDate);
 };
